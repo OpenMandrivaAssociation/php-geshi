@@ -2,7 +2,7 @@
 
 Name:		php-%{upstream_name}
 Version:	1.0.8.4
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Generic Syntax Highlighter
 License:	PHP License
 Group:		Development/PHP
@@ -22,10 +22,10 @@ compliant output.
 
 %install
 rm -rf %{buildroot}
-install -d -m 755 %{buildroot}%{_datadir}/%{name}
-cp -p geshi.php %{buildroot}%{_datadir}/%{name}
-cp -pr geshi %{buildroot}%{_datadir}/%{name}
-cp -pr contrib %{buildroot}%{_datadir}/%{name}
+install -d -m 755 %{buildroot}%{_datadir}/php
+cp -p geshi.php %{buildroot}%{_datadir}/php
+cp -pr geshi %{buildroot}%{_datadir}/php
+cp -pr contrib %{buildroot}%{_datadir}/php/geshi
 
 %clean
 rm -rf %{buildroot}
@@ -33,5 +33,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root)
 %doc docs
-%{_datadir}/%{name}
-
+%{_datadir}/php/*
