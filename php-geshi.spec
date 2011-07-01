@@ -1,13 +1,13 @@
 %define upstream_name geshi
 
 Name:		php-%{upstream_name}
-Version:	1.0.8.8
-Release:	%mkrel 4
+Version:	1.0.8.10
+Release:	%mkrel 1
 Summary:	Generic Syntax Highlighter
 License:	PHP License
 Group:		Development/PHP
 URL:		http://qbnz.com/highlighter/
-Source0:	http://sourceforge.net/projects/geshi/files/geshi/geshi-%{version}.tar.bz2
+Source0:	http://sourceforge.net/projects/geshi/files/geshi/GeSHi-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
