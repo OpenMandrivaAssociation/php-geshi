@@ -2,7 +2,7 @@
 
 Name:		php-%{upstream_name}
 Version:	1.0.8.10
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Generic Syntax Highlighter
 License:	PHP License
 Group:		Development/PHP
