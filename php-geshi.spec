@@ -1,13 +1,13 @@
 %define upstream_name geshi
 
 Name:		php-%{upstream_name}
-Version:	1.0.8.10
-Release:	%mkrel 3
+Version:	1.0.8.11
+Release:	1
 Summary:	Generic Syntax Highlighter
 License:	PHP License
 Group:		Development/PHP
 URL:		http://qbnz.com/highlighter/
-Source0:	http://sourceforge.net/projects/geshi/files/geshi/GeSHi-%{version}.tar.bz2
+Source0:	https://sourceforge.net/projects/geshi/files/geshi/GeSHi%201.0.8.11/GeSHi-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
@@ -73,3 +73,4 @@ rm -rf %{buildroot}
 
 * Sat Jul 18 2009 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.8.4-1mdv2010.0
 - first mdv release
+
