@@ -6,7 +6,7 @@ Release:	2
 Summary:	Generic Syntax Highlighter
 License:	PHP License
 Group:		Development/PHP
-URL:		http://qbnz.com/highlighter/
+URL:		https://qbnz.com/highlighter/
 Source0:	https://sourceforge.net/projects/geshi/files/geshi/GeSHi%201.0.8.11/GeSHi-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
